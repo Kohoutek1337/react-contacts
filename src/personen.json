@@ -1,0 +1,36 @@
+
+
+[
+    {
+      "nachname": "Gondorf",
+      "vorname": "Maik",
+      "email": "Mgo@bsg.de",
+      "straße": "Diese Straße 10a",
+      "wohnort": "Goch",
+      "eintritt": "2009-12-01"
+    },
+    {
+        "nachname": "Peters",
+        "vorname": "Andre",
+        "email": "Ape@bsg.de",
+        "straße": "Keine Straße 99",
+        "wohnort": "Uedem",
+        "eintritt": "2012-01-01"
+    } ,
+    {
+        "nachname": "Janssen",
+        "vorname": "Jennifer",
+        "email": "Jja@bsg.de",
+        "straße": "Eine Straße 1",
+        "wohnort": "Goch",
+        "eintritt": "2009-12-01"
+    },
+    {
+        "nachname": "Putin",
+        "vorname": "Vladimir",
+        "email": "Vpu@bsg.de",
+        "straße": "Weg 44",
+        "wohnort": "Pfalzdorf",
+        "eintritt": "1900-01-01"
+    }
+]
