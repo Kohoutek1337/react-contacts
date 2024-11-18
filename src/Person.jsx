@@ -1,4 +1,12 @@
 export default function Person(props) {
+  function ändernButton() {
+    if (props.wirdAngelegt) {
+      props.toggleWirdAngelegt();
+    }
+    props.toggleIsUpdated();
+    props.getPersonToUpdate(props.item);
+  }
+
   return (
     <div className={props.darkMode ? "kachel-dark" : "kachel"}>
       <div className="kachel--info">
@@ -14,8 +22,15 @@ export default function Person(props) {
         <p className="kachel--datum">joined: {props.item.eintritt}</p>
       </div>
       <div className="kachel--buttons">
-        <button className="button--ändern">🖉</button>
-        <button className="button--löschen">-</button>
+        <button className="button--ändern" onClick={ändernButton}>
+          🖉
+        </button>
+        <button
+          className="button--löschen"
+          onClick={(event) => props.delete(event, props.id)}
+        >
+          -
+        </button>
       </div>
     </div>
   );

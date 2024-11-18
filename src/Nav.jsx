@@ -12,7 +12,7 @@ export default function Nav(props) {
           }
           onClick={props.toggleDarkMode}
         >
-          dark mode
+          {props.darkMode ? "switch to light mode" : "switch to dark mode"}
         </button>
       </nav>
     </>
